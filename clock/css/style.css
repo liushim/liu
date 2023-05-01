@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Microsoft YaHei', 'Times New Roman', Times, serif;
+    background: url(bg30.jpg) no-repeat;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+ul li {
+    list-style: none;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    left: -32px;
+    top: -32px;
+}
+
+/*元素被选中的样式*/
+.elementActive {
+    color: rgb(118, 7, 155);
+    font-weight: bold;
+}
